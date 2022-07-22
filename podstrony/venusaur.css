@@ -1,0 +1,109 @@
+body
+{
+  background-color: #222224;
+  color: #fff;
+  margin: 0;  
+  font-size: 16px;
+}
+
+nav, footer
+{
+	width: 100%;
+	heigth: 112px;
+	background-color: #035953;
+	padding: 10px;
+	text-align: center;
+	font-size: 22px;
+}
+nav
+{
+   letter-spacing: 2px;	
+}
+
+footer
+{
+	font-size: 16px;
+	position: absolute;
+	bottom: 0px;
+	padding: 30px 0;
+}
+
+.previus, .next
+{
+	 font-size: 88px;
+	 font-weight: 900;
+	 margin-top: -40px;
+	 height: 100%;
+	 opacity: 0.5;
+}
+
+.previus
+{
+	 position: fixed;
+	 left: 0;
+	 padding-right: 100px;
+}
+
+.next 
+{
+	 position: fixed;
+	 right: 0;
+	 padding-left: 100px;
+}
+
+.next a, .previus a
+{
+	display:none;
+	text-decoration: none;
+	color: #eee;
+}
+
+.next:hover a
+{
+   display: block;
+   height: 100%;
+   width: 164px;
+   padding: 100px 50px 0 0px;
+   -webkit-box-shadow: -118px 19px 217px -18px rgba(0,0,0,0.63) inset;
+   -moz-box-shadow: -118px 19px 217px -18px rgba(0,0,0,0.63) inset;
+   box-shadow: -118px 19px 217px -18px rgba(0,0,0,0.63) inset;
+}
+
+.previus:hover a
+{
+   display: block;
+   height: 100%;
+   width: 164px;
+   align-items: left;
+   padding: 100px 70px 0 0px;
+   margin-left: -30px;
+   -webkit-box-shadow: 118px -19px -217px -18px rgba(0,0,0,0.63) inset;
+   -moz-box-shadow: -118px 19px 217px -18px rgba(0,0,0,0.63) inset;
+   box-shadow: 118px -19px 217px 18px rgba(0,0,0,0.63) inset;
+}
+
+
+article
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display:flex;
+	margin: 40px auto;
+}
+
+section
+{
+    min-height: 350px;	
+	width: 500px;
+}
+
+button
+{
+	
+	color: #414141;
+}
+button:hover
+{
+	cursor: pointer;
+}

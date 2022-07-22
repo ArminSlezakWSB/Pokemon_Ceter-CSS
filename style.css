@@ -1,0 +1,397 @@
+body
+{
+  background-color:#222224;
+  color: #fff;
+  margin: 0;
+}
+
+      a:link
+       {
+	      text-decoration: none;
+       	  color: #000;
+       }
+
+     a:visited
+       {
+	       color: #000;
+       }
+
+	   a:hover
+	   {
+		   text-decoration: underline;
+	   }
+
+
+ .wrapper
+ {
+	  width: 100%;
+ }
+
+
+   #logo
+   {
+	   margin-left: auto;
+	   margin-right: auto;
+	   margin-top: 20px;
+	   text-align: center;
+	   opacity: 0.9;
+   }
+      #logo img:hover
+	  {
+		  height:120px;
+		  width:310px;
+		  margin-bottom: -10px;
+	  }
+
+	  #logo:hover
+	  {
+		  opacity: 1;
+	  }
+
+   #menu
+   {
+	   width: 100%;
+       background-color: #ee1515;
+       margin-top: 40px;
+	   border-bottom: 2px solid #cc0303;
+	   border-top: 2px solid #cc0303;
+   }
+   .sticky
+   {
+	   position: fixed;
+	   left:0;
+	   top:-40px;
+	   width:100%;
+	   z-index:100;
+	   height: 60px;
+   }
+   
+   .sticky img
+   {
+	   
+	   transition: transform 1s linear;
+	   transform: scale(.6);
+   }
+   
+   .sticky img:hover
+   {
+	   transform: rotate(-180deg) scale(.6);
+   }
+
+       input[type=search]
+	   {
+		   width: 500px;
+		   background-color: #222224;
+		   margin-left: 80px;
+		   margin-top: 19px;
+		   margin-bottom: 19px;
+		   padding: 5px;
+		   border-radius: 10px;
+		   color: #a0a0a0;
+		   font-size: 16px;
+		   letter-spacing: 2px;
+	   }
+
+	   input[type=search]:focus
+	   {
+		   /*http://www.cssmatic.com/box-shadow*/
+		   -webkit-box-shadow: 1px 1px 2px 1px rgba(173,166,173,1);
+           -moz-box-shadow: 1px 1px 2px 1px rgba(173,166,173,1);
+           box-shadow: 1px 0px -2px 1px rgba(173,166,173,1);
+		   outline: none;
+		   color:  #cc0303;
+		   letter-spacing: 2px;
+		   background-color: #313133;
+		   float:left;
+	   }
+
+	             input:focus::-webkit-input-placeholder
+				 {
+					 color: #cc0303;
+				 }
+
+				 /* Firefox < 19 */
+				 input:focus:-moz-placeholder
+				 {
+					 color:#cc0303;
+				 }
+
+				  /* Firefox > 19 */
+				 input:focus::-moz-placeholder
+				 {
+					 color:#cc0303;
+				 }
+
+				 /* Internet Explorer 10 */
+				 input:focus:-ms-input-placeholder
+				 {
+					 color:#cc0303;
+				 }
+
+
+.sidebar
+{
+	float: left;
+}
+.nav
+{
+	width: 300px;
+	/* Background pattern from Subtle Patterns */
+	background-image: url("image/retro_intro.png");
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+    color: #000;
+	border-radius: 5px;
+}
+
+nav
+{
+	width: 300px;
+	/* Background pattern from Subtle Patterns */
+	background-image: url("image/retro_intro.png");
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+    color: #000;
+	border-radius: 5px;
+}
+     ol > li
+	 {
+		 padding-bottom: 10px;
+		 list-style-type: none;
+		 color:#ee1515;
+		 border-bottom: 1px dotted #cc0303;
+		 margin-top: 5px;
+	 }
+
+	 ol > li > ul > li
+	 {
+		 color: #000;
+		 list-style-type: none;
+	 }
+
+     ol > li > ul > li:hover
+	 {
+		 list-style-image: url("image/Pokeball.png");
+	 }
+
+	  ol > li:last-child
+	 {
+		 border-bottom: none;
+
+	 }
+
+	 ol > li:first-child
+	 {
+		 padding-top: 5px;
+
+	 }
+
+	aside
+	{
+		width: 100%;
+	}
+
+/*	.aside a
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+	*/
+	aside a:hover
+	{
+        display: block;
+		height: 200px;
+		width: 300px;
+	}
+
+	.fb
+	{
+		height: 200px;
+		width: 300px;
+	}
+	.fb a
+	{
+		display: block;
+		height: 200px;
+		width: 300px;
+	}
+	.fb:hover
+	{
+  		background: #3b5998;
+		/*display: block;
+		heigth: 200px;
+		width: 300px;*/
+	}
+
+
+	.tweet
+	{
+		height: 200px;
+		width: 300px;
+	}
+	.tweet a
+	{
+		display: block;
+		height: 200px;
+		width: 300px;
+	}
+	.tweet:hover
+	{
+        background-color: #1dcaff;
+	}
+
+	.yt
+	{
+		height: 200px;
+		width: 300px;
+	}
+	.yt a
+	{
+		display: block;
+		height: 200px;
+		width: 300px;
+	}
+	.yt :hover
+	{
+        background-color: #b31217;
+	}
+
+	.gplus
+	{
+		height: 200px;
+		width: 300px;
+	}
+	.gplus a
+	{
+		display: block;
+		height: 200px;
+		width: 300px;
+	}
+	.gplus:hover
+	{
+        background-color: #d34836;
+	}
+
+	.github
+	{
+		height: 200px;
+		width: 300px;
+	}
+	.github a
+	{
+		display: block;
+		height: 200px;
+		width: 300px;
+	}
+	.github:hover
+	{
+        background-color: #2d2d2d;
+	}
+
+
+
+#type
+{
+	width: 985px;
+	/* Background pattern from Subtle Patterns */
+	background-image: url("image/retro_intro.png");
+	/*background-color: #111112;*/
+	border: 2px solid black;
+    color: #000;
+	border-radius: 5px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	padding: 14px 0;
+	text-align: center;
+}
+
+            .poke-type
+            {
+                 display: inline-block;
+				 border-radius: 40px;
+                 width: /*135*/80px;
+                 height: 80px;
+                 margin: 2px 30px;
+            }
+
+			.poke-type img
+			{
+				display: inline-block;
+				opacity: 0.85;
+				width: 80px;
+				height: 80px;
+			}
+
+			.poke-type img:hover
+			{
+				opacity: 1;
+			}
+
+main
+{
+	/* Background pattern from Subtle Patterns */
+    /*background-image: url("image/squares.png");*/
+    width: 1000px;
+	height: 700px;
+	padding: 20px;
+	float: left;
+	margin-top: -15px;
+}
+
+     .content
+	 {
+		 float:left;
+		 height: 60px;
+		 width: 60px;
+		 border-radius: 50px;
+		 background-color: #111112;
+		 margin: 7px 7px ;
+		 border: 3px solid #b7580b;
+		 text-align: center;
+		 padding:5px;
+		 transition: transform .2s ease-in-out;
+		 overflow: hidden;
+	
+	 }
+
+	 .content img
+	 {
+		 max-height:80%;
+		 max-width:80%;
+		 padding-top: 5px;
+		 opacity:0.5;
+		 margin-top: 2px;
+         transition:transform .2s linear; 
+	 }
+	 .content:hover
+	 {
+		 transform: scale(1.1);
+	 }
+	 .content:hover img
+	 {
+		 opacity:0.8;
+		 transform: scale(1.3);
+	 }
+/*	 
+	 figure
+	 {
+		 position: realative;
+		 margin:-5px;
+	 }
+	 
+	 figcaption
+	 {
+		 position: absolute;
+		 bottom: -10px;
+	 }
+*/
+	        /*    .pokemon
+				{
+					height:65px;
+					width: 65px;
+					text-align: center;
+				}
+              */
